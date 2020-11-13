@@ -1,7 +1,7 @@
 // Garden Gnome Software - Skin
 // Pano2VR 6.1.10/18007
 // Filename: simplex_Merc2.ggsk
-// Generated 2020-11-13T12:51:03
+// Generated 2020-11-13T14:43:36
 
 function pano2vrSkin(player,base) {
 	player.addVariable('opt_hotspot_preview', 2, true);
@@ -11378,6 +11378,74 @@ function pano2vrSkin(player,base) {
 		}
 		me._infoverkaufer.appendChild(me._timer_1);
 		me.divSkin.appendChild(me._infoverkaufer);
+		el=me._polyplay=document.createElement('div');
+		el.ggId="Polyplay";
+		el.ggDx=-157;
+		el.ggDy=-95;
+		el.ggParameter={ rx:0,ry:0,a:0,sx:1,sy:1 };
+		el.ggVisible=true;
+		el.className="ggskin ggskin_container ";
+		el.ggType='container';
+		hs ='';
+		hs+='height : 79px;';
+		hs+='left : -10000px;';
+		hs+='position : absolute;';
+		hs+='top : -10000px;';
+		hs+='visibility : inherit;';
+		hs+='width : 156px;';
+		hs+='pointer-events:none;';
+		el.setAttribute('style',hs);
+		el.style[domTransform + 'Origin']='50% 50%';
+		me._polyplay.ggIsActive=function() {
+			return false;
+		}
+		el.ggElementNodeId=function() {
+			return player.getCurrentNode();
+		}
+		me._polyplay.onclick=function (e) {
+			player.setVariableValue('vis_info_poupp', true);
+			player.setVariableValue('getpolyname', player.hotspot.title);
+			me._popup_video_file.ggInitMedia(player.hotspot.description);
+			player.setVariableValue('vis_video_popup_file', true);
+			if (me._popup_video_file.ggApiPlayer) {
+				if (me._popup_video_file.ggApiPlayerType == 'youtube') {
+					let youtubeMediaFunction = function() {
+						me._popup_video_file.ggApiPlayer.playVideo();
+					};
+					if (me._popup_video_file.ggApiPlayerReady) {
+						youtubeMediaFunction();
+					} else {
+						let youtubeApiInterval = setInterval(function() {
+							if (me._popup_video_file.ggApiPlayerReady) {
+								clearInterval(youtubeApiInterval);
+								youtubeMediaFunction();
+							}
+						}, 100);
+					}
+				} else if (me._popup_video_file.ggApiPlayerType == 'vimeo') {
+					me._popup_video_file.ggApiPlayer.play();
+				}
+			} else {
+				player.playSound("popup_video_file","1");
+			}
+		}
+		me._polyplay.ggUpdatePosition=function (useTransition) {
+			if (useTransition==='undefined') {
+				useTransition = false;
+			}
+			if (!useTransition) {
+				this.style[domTransition]='none';
+			}
+			if (this.parentNode) {
+				var pw=this.parentNode.clientWidth;
+				var w=this.offsetWidth;
+					this.style.left=(this.ggDx + pw/2 - w/2) + 'px';
+				var ph=this.parentNode.clientHeight;
+				var h=this.offsetHeight;
+					this.style.top=(this.ggDy + ph/2 - h/2) + 'px';
+			}
+		}
+		me.divSkin.appendChild(me._polyplay);
 		me._popup_video_file.ggVideoSource = 'media/';
 		me._popup_video_file.ggVideoNotLoaded = true;
 		me._popup_video_url.ggVideoSource = '';
@@ -11680,6 +11748,9 @@ function pano2vrSkin(player,base) {
 		}
 		if (id=='Polyinfo') {
 			me._infopoly.onclick();
+		}
+		if (id=='Poly01') {
+			me._polyplay.onclick();
 		}
 	}
 	this.hotspotProxyDoubleClick=function(id, url) {
