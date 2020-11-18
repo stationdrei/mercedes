@@ -22,7 +22,7 @@
           </imagepatch>
         </patch>
         <type>auto</type>
-        <filename>D:/WORK_/Merecedes Messe/Render/11-13/ALL8K.png</filename>
+        <filename>D:/WORK_/Merecedes Messe/Render/11-18/intro.png</filename>
         <videotype>equi</videotype>
         <levelpitch>0</levelpitch>
         <levelroll>0</levelroll>
@@ -218,7 +218,7 @@ Sie möchten mehr über den Sprinter erfahren? Dann klicken Sie &lt;a href="http
           <id>Point03</id>
           <title>Die V-Klasse.</title>
           <description>Unsere Großraumlimousine ist Business- und Freizeit-Van in einem. Genießen Sie die V-Klasse als komfortablen Family Van, Shuttlebus fürs Business oder stilvolles Fahrzeug für Freizeit und Abenteuer.
-Sie möchten mehr über der V-Klasse erfahren? Dann klicken Sie &lt;a href="https://www.mercedes-benz-vans.de" target="_blank">hier&lt;/a></description>
+Sie möchten mehr über die V-Klasse erfahren? Dann klicken Sie &lt;a href="https://www.mercedes-benz-vans.de" target="_blank">hier&lt;/a></description>
           <linktype>url</linktype>
           <linksubtype>unknown</linksubtype>
           <skinid>ht_info_noico</skinid>
@@ -271,7 +271,7 @@ Sie möchten mehr über den Marco Polo erfahren? Dann klicken Sie &lt;a href="ht
           <type>point</type>
           <id>Point05</id>
           <title>Der Citan.</title>
-          <description>Unser kleinster Transporter bringt Sie ganz groß raus. Der Held der Stadt ist die ideale Transporter-Lösung für alle, die ein zuverlässiges und wendiges Fahrzeug benötigen, aber auf Komfort nicht verzichten wollen. Sie möchten mehr über den Sprinter erfahren? Dann klicken Sie &lt;a href="https://www.mercedes-benz-vans.de" target="_blank">hier&lt;/a></description>
+          <description>Unser kleinster Transporter bringt Sie ganz groß raus. Der Held der Stadt ist die ideale Transporter-Lösung für alle, die ein zuverlässiges und wendiges Fahrzeug benötigen, aber auf Komfort nicht verzichten wollen. Sie möchten mehr über den Citan erfahren? Dann klicken Sie &lt;a href="https://www.mercedes-benz-vans.de" target="_blank">hier&lt;/a></description>
           <linktype>url</linktype>
           <linksubtype>unknown</linksubtype>
           <target>_blank</target>
@@ -299,7 +299,7 @@ Sie möchten mehr über den Marco Polo erfahren? Dann klicken Sie &lt;a href="ht
           <id>Point06</id>
           <title>Der Vito.</title>
           <description>Unser Allrounder. Ob als Kastenwagen, Mixto oder Tourer: Der Vito ist für jeden Bedarf gerüstet und ein echtes Arbeitstier. Natürlich in Mercedes-Benz Qualität, damit die Arbeit auch Spaß macht.
-Sie möchten mehr über den Sprinter erfahren? Dann klicken Sie &lt;a href="https://www.mercedes-benz-vans.de" target="_blank">hier&lt;/a></description>
+Sie möchten mehr über den Vito erfahren? Dann klicken Sie &lt;a href="https://www.mercedes-benz-vans.de" target="_blank">hier&lt;/a></description>
           <linktype>url</linktype>
           <linksubtype>unknown</linksubtype>
           <skinid>ht_info_noico</skinid>
@@ -326,7 +326,7 @@ Sie möchten mehr über den Sprinter erfahren? Dann klicken Sie &lt;a href="http
           <id>Point07</id>
           <title>Die X-Klasse.</title>
           <description>Der Mercedes-Benz unter den Pickups: robust, kraftvoll und als funktionaler und zuverlässiger Partner im Arbeitsalltag genauso überzeugend wie als Weggefährte für spontane Freizeitabenteuer.
-Sie möchten mehr über der X-Klasse erfahren? Dann klicken Sie &lt;a href="https://www.mercedes-benz-vans.de" target="_blank">hier&lt;/a></description>
+Sie möchten mehr über die X-Klasse erfahren? Dann klicken Sie &lt;a href="https://www.mercedes-benz-vans.de" target="_blank">hier&lt;/a></description>
           <linktype>url</linktype>
           <linksubtype>unknown</linksubtype>
           <skinid>ht_info_noico</skinid>
@@ -351,7 +351,7 @@ Sie möchten mehr über der X-Klasse erfahren? Dann klicken Sie &lt;a href="http
           <polygon/>
           <type>point</type>
           <id>Point08</id>
-          <title>Sie möchten über den EQV erfahrt</title>
+          <title>Sie möchten mehr über den EQV erfahren?</title>
           <description>Dann klicken sie &lt;a href=https://eqv.mercedes-benz.de/?ef_id=Cj0KCQiA-rj9BRCAARIsANB_4ADqDoO8Re0DnMxxqNJsw-mPaO8iCLMywQxyfzMvSMMEu_Wu0DeHC7YaAkJlEALw_wcB:G:s&amp;s_kwcid=AL!3888!3!437408622435!e!!g!!eqv&amp;csref=mc-sem_cn-MB_EQV_Brand_ci-Google_si-g_pi-kwd-343382295766_cri-437408622435_ai-eqv&amp;kpid=go_cmp-8619295423_adg-87161355579_ad-437408622435_kwd-343382295766_dev-c_ext-" target="_blank">hier&lt;/a>oder wenden Sie sich gleich telefonisch an mich unter &lt;a href="tel:+496131367526">:+49 (6131) 367-526&lt;/a> oder per Mail an &lt;a href="mailto:kevin.danner@daimler.com">kevin.danner@daimler.com&lt;/a> Ich freue mich auf Sie!</description>
           <linktype>url</linktype>
           <linksubtype>unknown</linksubtype>
