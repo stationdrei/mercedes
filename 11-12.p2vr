@@ -9,16 +9,16 @@
           <imagepatch>
             <pan>0</pan>
             <tilt>0</tilt>
-            <fov>52</fov>
+            <fov>63</fov>
             <roll>0</roll>
-            <aspectratio>0.9</aspectratio>
+            <aspectratio>1.3</aspectratio>
             <applyafterlevelling>0</applyafterlevelling>
-            <locked>0</locked>
+            <locked>1</locked>
             <quality>90</quality>
-            <filename>D:/WORK_/Merecedes Messe/patches/ALL8K_patch.psd</filename>
+            <filename>patches/intro_patch_1.psd</filename>
             <type>image</type>
             <blurintensity>10</blurintensity>
-            <lastmodified>2020-11-13T14:38:50</lastmodified>
+            <lastmodified>2020-11-18T14:15:15</lastmodified>
           </imagepatch>
         </patch>
         <type>auto</type>
@@ -48,7 +48,7 @@
             <fov>0</fov>
           </next>
           <polygon>
-            <polystring>-335.77/23.61|-12.49/25.97|-12.8/-18.12|-336.3/-17.07</polystring>
+            <polystring>-320.17/20.57|-11.93/25.2|-11.57/-20.21|-319.99/-16.24</polystring>
             <usedefaultcolor>1</usedefaultcolor>
             <backgroundcolor>#0000ff,64</backgroundcolor>
             <bordercolor>#0000ff</bordercolor>
@@ -73,14 +73,14 @@
             <rotx>0</rotx>
             <roty>0</roty>
             <rotz>0</rotz>
-            <fov>52</fov>
+            <fov>63</fov>
             <stretch>100</stretch>
-            <dimx>1280</dimx>
-            <dimy>1424</dimy>
+            <dimx>1600</dimx>
+            <dimy>1232</dimy>
           </videorect>
           <type>video</type>
           <id>Element01</id>
-          <filename>D:/WORK_/Merecedes Messe/MP4/ALL8K_patch.mp4</filename>
+          <filename>video/intro_patch-18-11a.mp4</filename>
           <mode>1</mode>
           <nodechangekeep>0</nodechangekeep>
           <locked>1</locked>
@@ -92,8 +92,39 @@
           <level>1</level>
           <loop>1</loop>
           <copyfile>1</copyfile>
+          <clickmode>playstop</clickmode>
+          <handcursor>0</handcursor>
+        </sound>
+        <sound>
+          <position>
+            <pan>0</pan>
+            <tilt>0</tilt>
+          </position>
+          <videorect>
+            <rotx>0</rotx>
+            <roty>0</roty>
+            <rotz>0</rotz>
+            <fov>63</fov>
+            <stretch>100</stretch>
+            <dimx>1600</dimx>
+            <dimy>1232</dimy>
+          </videorect>
+          <type>image</type>
+          <id>Element02</id>
+          <filename>video/intro_patch-18-11a (0-00-00-00).png</filename>
+          <mode>0</mode>
+          <nodechangekeep>0</nodechangekeep>
+          <locked>1</locked>
+          <pansize>10</pansize>
+          <tiltsize>10</tiltsize>
+          <fieldsize>90</fieldsize>
+          <ambientlevel>0</ambientlevel>
+          <startmutedmobile>0</startmutedmobile>
+          <level>1</level>
+          <loop>1</loop>
+          <copyfile>1</copyfile>
           <clickmode>none</clickmode>
-          <handcursor>1</handcursor>
+          <handcursor>0</handcursor>
         </sound>
       </sounds>
       <animation>
@@ -258,8 +289,8 @@ Sie möchten mehr über den Marco Polo erfahren? Dann klicken Sie &lt;a href="ht
         </hotspot>
         <hotspot>
           <position>
-            <pan>-284.23</pan>
-            <tilt>-4.14</tilt>
+            <pan>-285.74</pan>
+            <tilt>-4.19</tilt>
             <fov>10</fov>
           </position>
           <next>
@@ -285,8 +316,8 @@ Sie möchten mehr über den Marco Polo erfahren? Dann klicken Sie &lt;a href="ht
         </hotspot>
         <hotspot>
           <position>
-            <pan>-301.53</pan>
-            <tilt>-3.69</tilt>
+            <pan>-307.61</pan>
+            <tilt>-3.54</tilt>
             <fov>10</fov>
           </position>
           <next>
@@ -300,33 +331,6 @@ Sie möchten mehr über den Marco Polo erfahren? Dann klicken Sie &lt;a href="ht
           <title>Der Vito.</title>
           <description>Unser Allrounder. Ob als Kastenwagen, Mixto oder Tourer: Der Vito ist für jeden Bedarf gerüstet und ein echtes Arbeitstier. Natürlich in Mercedes-Benz Qualität, damit die Arbeit auch Spaß macht.
 Sie möchten mehr über den Vito erfahren? Dann klicken Sie &lt;a href="https://www.mercedes-benz-vans.de" target="_blank">hier&lt;/a></description>
-          <linktype>url</linktype>
-          <linksubtype>unknown</linksubtype>
-          <skinid>ht_info_noico</skinid>
-          <distance>0</distance>
-          <distanceauto>1</distanceauto>
-          <autoplace>0</autoplace>
-          <use3d>0</use3d>
-          <width>0</width>
-          <height>0</height>
-        </hotspot>
-        <hotspot>
-          <position>
-            <pan>-314.51</pan>
-            <tilt>-3.12</tilt>
-            <fov>10</fov>
-          </position>
-          <next>
-            <pan>0</pan>
-            <tilt>0</tilt>
-            <fov>0</fov>
-          </next>
-          <polygon/>
-          <type>point</type>
-          <id>Point07</id>
-          <title>Die X-Klasse.</title>
-          <description>Der Mercedes-Benz unter den Pickups: robust, kraftvoll und als funktionaler und zuverlässiger Partner im Arbeitsalltag genauso überzeugend wie als Weggefährte für spontane Freizeitabenteuer.
-Sie möchten mehr über die X-Klasse erfahren? Dann klicken Sie &lt;a href="https://www.mercedes-benz-vans.de" target="_blank">hier&lt;/a></description>
           <linktype>url</linktype>
           <linksubtype>unknown</linksubtype>
           <skinid>ht_info_noico</skinid>

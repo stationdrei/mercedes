@@ -1,7 +1,7 @@
 // Garden Gnome Software - Skin
 // Pano2VR 6.1.10/18007
 // Filename: simplex_Merc2.ggsk
-// Generated 2020-11-18T12:26:34
+// Generated 2020-11-18T14:34:47
 
 function pano2vrSkin(player,base) {
 	player.addVariable('opt_hotspot_preview', 2, true);
@@ -7963,7 +7963,6 @@ function pano2vrSkin(player,base) {
 		el=me._video_popup_file=document.createElement('div');
 		el.ggId="video_popup_file";
 		el.ggDx=0;
-		el.ggDy=0;
 		el.ggParameter={ rx:0,ry:0,a:0,sx:1,sy:1 };
 		el.ggVisible=false;
 		el.className="ggskin ggskin_container ";
@@ -7972,7 +7971,7 @@ function pano2vrSkin(player,base) {
 		hs+='height : 80%;';
 		hs+='left : -10000px;';
 		hs+='position : absolute;';
-		hs+='top : -10000px;';
+		hs+='top : 5%;';
 		hs+='visibility : hidden;';
 		hs+='width : 80%;';
 		hs+='pointer-events:none;';
@@ -8019,9 +8018,6 @@ function pano2vrSkin(player,base) {
 				var pw=this.parentNode.clientWidth;
 				var w=this.offsetWidth;
 					this.style.left=((this.ggDx * pw)/100.0 + pw/2 - w/2) + 'px';
-				var ph=this.parentNode.clientHeight;
-				var h=this.offsetHeight;
-					this.style.top=((this.ggDy * ph)/100.0 + ph/2 - h/2) + 'px';
 			}
 		}
 		el=me._loading_video_file=document.createElement('div');
@@ -8769,19 +8765,19 @@ function pano2vrSkin(player,base) {
 		el.className='ggskin ggskin_textdiv';
 		el.ggTextDiv=els;
 		el.ggId="info_text_bodyk";
-		el.ggDx=-0.18;
+		el.ggDx=0;
 		el.ggParameter={ rx:0,ry:0,a:0,sx:1,sy:1 };
 		el.ggVisible=false;
 		el.className="ggskin ggskin_text info_body";
 		el.ggType='text';
 		hs ='';
 		hs+='z-index: 1;';
-		hs+='bottom : 29px;';
-		hs+='height : 74px;';
+		hs+='bottom : 34px;';
+		hs+='height : 60px;';
 		hs+='left : -10000px;';
 		hs+='position : absolute;';
 		hs+='visibility : hidden;';
-		hs+='width : 87.6761%;';
+		hs+='width : 100%;';
 		hs+='pointer-events:auto;';
 		el.setAttribute('style',hs);
 		el.style[domTransform + 'Origin']='50% 50%';
@@ -8791,7 +8787,7 @@ function pano2vrSkin(player,base) {
 		hs+='left: 0px;';
 		hs+='bottom:  0px;';
 		hs+='width: 100%;';
-		hs+='height: 74px;';
+		hs+='height: 60px;';
 		hs+='border: 0px solid #000000;';
 		hs+='color: rgba(255,255,255,1);';
 		hs+='text-align: left;';
@@ -8847,7 +8843,7 @@ function pano2vrSkin(player,base) {
 			if (this.parentNode) {
 				var pw=this.parentNode.clientWidth;
 				var w=this.offsetWidth;
-					this.style.left=((this.ggDx * pw)/100.0 + pw/2 - w/2) + 'px';
+					this.style.left=(this.ggDx + pw/2 - w/2) + 'px';
 			}
 		}
 		me._video_popup_controls_file.appendChild(me._info_text_bodyk);
